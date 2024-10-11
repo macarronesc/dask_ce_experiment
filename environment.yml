@@ -1,0 +1,19 @@
+name: sst_rise
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - dask
+  - numpy
+  - coiled
+  - cf_xarray
+  - gcsfs
+  - fsspec
+  - intake-esm
+  - matplotlib
+  - xarray
+  - nc-time-axis
+  - zarr
+  - xmip
+  - xarray-datatree
+  - xarrayutils
